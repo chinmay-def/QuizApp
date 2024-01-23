@@ -73,7 +73,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         tvOptionFour?.text = question.optionFour
 
         if(mCurrentPos==mQuestionList!!.size){
-            btnSubmit?.text="Finish"
+            btnSubmit?.text="Finished"
         }
         else{
             btnSubmit?.text="Sumbit"
